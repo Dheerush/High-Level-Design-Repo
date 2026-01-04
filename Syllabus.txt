@@ -1,0 +1,335 @@
+============================================================
+HIGH LEVEL DESIGN / SYSTEM DESIGN – COMPLETE & EXTENDED SYLLABUS
+============================================================
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                        01. NETWORKING
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+HTTP vs HTTPS
+TCP vs UDP
+DNS (resolution flow, caching, TTL)
+REST fundamentals
+REST vs RPC vs gRPC
+HTTP methods
+HTTP status codes
+Stateless vs Stateful communication
+Cookies vs Sessions
+Authentication headers
+CORS
+WebSockets
+Short polling vs Long polling
+CDN basics
+Request–response lifecycle
+Client–server architecture
+Edge computing (high level)
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                        02. DATABASES
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SQL vs NoSQL
+Relational databases
+Key–value stores
+Document databases
+Column-oriented databases
+Graph databases
+Time-series databases
+ACID properties
+BASE properties
+CAP theorem
+Indexes
+Primary key vs Foreign key
+Transactions
+Isolation levels
+Normalization
+Denormalization
+Schema design
+Replication
+Read replicas
+Sharding
+Partitioning strategies
+Data consistency
+Data durability
+OLTP vs OLAP
+Multi-region databases
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                    03. ALGORITHMS (SYSTEM DESIGN FOCUSED)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------            
+Hashing
+Consistent hashing
+Bloom filters
+Sliding window technique
+Rate limiting algorithms
+LRU cache
+LFU cache
+FIFO cache
+Priority queue usage
+Top-K problems
+UUID generation
+Snowflake ID generation
+Time-based ordering
+Deduplication algorithms
+Id generation strategies
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                04. SCALABILITY
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Scalability vs Performance
+Vertical scaling
+Horizontal scaling
+Throughput
+Latency
+Load balancing basics
+Auto scaling
+Stateless services
+Stateful services
+Data partitioning
+Hot key problem
+Single point of failure
+Bottleneck identification
+Capacity estimation
+Traffic spike handling
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                05. CACHING
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What is caching
+Why caching is needed
+Client-side caching
+Server-side caching
+Cache-aside strategy
+Read-through cache
+Write-through cache
+Write-back cache
+Cache invalidation
+TTL and expiry
+Cache eviction policies
+Redis
+Memcached
+CDN caching
+Cache consistency problems
+Cache stampede
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                06. DISTRIBUTED SYSTEMS
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What is a distributed system
+Challenges in distributed systems
+Consistency models
+Strong consistency
+Eventual consistency
+Leader–follower model
+Leader election
+Quorum-based systems
+Distributed locks
+Clock synchronization
+Logical clocks
+Physical clocks
+Idempotency
+Two-phase commit
+Saga pattern
+Failure handling
+Network partitions
+Consensus basics (Raft / Paxos – high level)
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                               07. CORE SYSTEM COMPONENTS
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------                    
+Load balancers
+Types of load balancers
+API Gateway
+Proxy and Reverse proxy
+Service discovery
+Configuration management
+Authentication service
+Authorization service
+File upload service
+Media service
+Notification service
+Search service
+Feature flags
+Rate limiting service
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                08. MESSAGING & ASYNC SYSTEMS
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Synchronous vs Asynchronous communication
+Message queues
+Pub/Sub systems
+Event-driven architecture
+Kafka
+RabbitMQ
+At-least-once delivery
+At-most-once delivery
+Exactly-once semantics
+Message ordering
+Backpressure
+Dead letter queues
+Consumer groups
+Event replay
+Stream processing (high level)
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                    09. STORAGE SYSTEMS
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+File systems
+Object storage
+Blob storage
+Distributed file systems
+Search engines
+Indexing for search
+Log storage systems
+Cold storage
+Hot storage
+Data archival
+Backup strategies
+Versioned storage
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                10. RELIABILITY & FAULT TOLERANCE
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Fault tolerance
+High availability
+Retries
+Retry strategies
+Timeouts
+Circuit breaker pattern
+Fallback mechanisms
+Graceful degradation
+Rate limiting
+Bulkheading
+Chaos engineering
+Failure isolation
+Disaster recovery
+Multi-region deployment
+Failover strategies
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                    11. PERFORMANCE OPTIMIZATION
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Performance vs scalability
+N+1 query problem
+Batching
+Pagination
+Index optimization
+Query optimization
+Connection pooling
+Caching for performance
+Cold start problem
+Lazy loading
+Eager loading
+Payload optimization
+Compression
+Frontend performance (high level)
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                        12. SECURITY
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Authentication vs Authorization
+JWT
+OAuth 2.0
+API keys
+HTTPS security
+TLS basics
+CSRF
+XSS
+SQL injection
+Rate limiting for security
+DDoS protection
+Secrets management
+Encryption at rest
+Encryption in transit
+RBAC
+ABAC
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                        13. OBSERVABILITY & OPERATIONS
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Logging
+Structured logging
+Metrics
+Tracing
+Distributed tracing
+Monitoring systems
+Dashboards
+Alerts
+SLI
+SLO
+SLA
+Error tracking
+Latency monitoring
+Health checks
+System audits
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                        14. APPLICATION & SYSTEM ARCHITECTURES
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Monolithic architecture
+Layered architecture
+MVC architecture
+Microservices architecture
+Event-driven architecture
+Service-oriented architecture (SOA)
+Serverless architecture
+Cloud-native architecture
+Headless architecture
+CMS architecture
+Headless CMS
+Backend-for-Frontend (BFF)
+Micro-frontend architecture
+API-first architecture
+Modular architecture
+Hexagonal architecture
+Clean architecture
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                    15. FRONTEND–BACKEND ARCHITECTURE
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SPA architecture
+SSR vs CSR vs SSG
+Hydration
+Edge rendering
+API integration patterns
+State management at scale
+Frontend caching strategies
+Authentication flows
+Authorization flows
+Multi-tenant frontend architecture
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+16. CASE STUDIES (SYSTEM DESIGN PRACTICE)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+URL Shortener
+Rate Limiter
+Notification System
+Chat System
+Feed System
+Payment System
+File Storage System
+Video Streaming System
+Search System
+CMS Platform
+E-commerce Platform
+Analytics System
+Auth System (Login / Signup)
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                            ❌  END OF SYLLABUS  ❌ 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
